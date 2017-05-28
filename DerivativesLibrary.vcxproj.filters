@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PayOff1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMax.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testHeader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMC.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PayOff2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleDigital.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vanilla1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMC3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PayOffBridge.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameters.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMC6.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Normals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrapper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParkMiller.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiThetic.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiThetic2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random22.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Normals2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParkMiller2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMC8.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MCStatistics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvergenceTable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathDependent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExoticEngine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExoticBSEngine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathDependentAsian.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PayOffBridge2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vanilla3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathDependentAsian2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeProduct.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeAmerican.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeEuropean.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinomialTree.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSCallClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSFormula.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bisection.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewtonRhapson.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSCallTwo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PayOffFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PayOffConstructible.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PayOff1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PayOff2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleDigital.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vanilla1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMC3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PayOffBridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMC6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Normals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParkMiller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiThetic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiThetic2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Normals2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParkMiller2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMC8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvergenceTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathDependent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExoticEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExoticBSEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathDependentAsian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PayOffBridge2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vanilla3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathDependentAsian2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeProduct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeAmerican.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeEuropean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BinomialTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSCallClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSFormula.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSCallTwo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PayOffFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PayOffRegistration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

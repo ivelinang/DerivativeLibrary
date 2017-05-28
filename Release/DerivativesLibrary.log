@@ -1,0 +1,36 @@
+﻿  AntiThetic.cpp
+  AntiThetic2.cpp
+  Array.cpp
+  DoubleDigital.cpp
+  Main.cpp
+Main.cpp(112): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+Main.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+Main.cpp(177): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+Main.cpp(230): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+  Normals.cpp
+Normals.cpp : warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+  Parameters.cpp
+  ParkMiller.cpp
+ParkMiller.cpp : warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+ParkMiller.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  PayOff1.cpp
+  PayOff2.cpp
+  PayOffBridge.cpp
+PayOffBridge.cpp : warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+PayOffBridge.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Random1.cpp
+  Random2.cpp
+Random2.cpp : warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+Random2.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Random22.cpp
+  SimpleMC.cpp
+  SimpleMC3.cpp
+  SimpleMC6.cpp
+  testHeader.cpp
+  Vanilla1.cpp
+  Vanilla3.cpp
+Vanilla3.cpp : warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+Vanilla3.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\c++\derivativeslibrary\derivativeslibrary\derivativeslibrary\Vanilla3.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Main.obj : error LNK2001: unresolved external symbol "public: double __thiscall NormalProbability::NormalDensity(double)" (?NormalDensity@NormalProbability@@QAENN@Z)
+D:\C++\DerivativesLibrary\DerivativesLibrary\Release\DerivativesLibrary.exe : fatal error LNK1120: 1 unresolved externals

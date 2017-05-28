@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99942B7E-EC07-4219-B03F-D737DCC4A895}</ProjectGuid>
+    <RootNamespace>DerivativesLibrary</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiThetic.h" />
+    <ClInclude Include="AntiThetic2.h" />
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="BinomialTree.h" />
+    <ClInclude Include="Bisection.h" />
+    <ClInclude Include="BSCallClass.h" />
+    <ClInclude Include="BSCallTwo.h" />
+    <ClInclude Include="BSFormula.h" />
+    <ClInclude Include="ConvergenceTable.h" />
+    <ClInclude Include="DoubleDigital.h" />
+    <ClInclude Include="ExoticBSEngine.h" />
+    <ClInclude Include="ExoticEngine.h" />
+    <ClInclude Include="MCStatistics.h" />
+    <ClInclude Include="MinMax.h" />
+    <ClInclude Include="NewtonRhapson.h" />
+    <ClInclude Include="Normals.h" />
+    <ClInclude Include="Normals2.h" />
+    <ClInclude Include="Parameters.h" />
+    <ClInclude Include="ParkMiller.h" />
+    <ClInclude Include="ParkMiller2.h" />
+    <ClInclude Include="PathDependent.h" />
+    <ClInclude Include="PathDependentAsian.h" />
+    <ClInclude Include="PathDependentAsian2.h" />
+    <ClInclude Include="PayOff1.h" />
+    <ClInclude Include="PayOff2.h" />
+    <ClInclude Include="PayOffBridge.h" />
+    <ClInclude Include="PayOffBridge2.h" />
+    <ClInclude Include="PayOffConstructible.h" />
+    <ClInclude Include="PayOffFactory.h" />
+    <ClInclude Include="Random1.h" />
+    <ClInclude Include="Random2.h" />
+    <ClInclude Include="Random22.h" />
+    <ClInclude Include="RTest.h" />
+    <ClInclude Include="SimpleMC.h" />
+    <ClInclude Include="SimpleMC3.h" />
+    <ClInclude Include="SimpleMC6.h" />
+    <ClInclude Include="SimpleMC8.h" />
+    <ClInclude Include="testHeader.h" />
+    <ClInclude Include="TreeAmerican.h" />
+    <ClInclude Include="TreeEuropean.h" />
+    <ClInclude Include="TreeProduct.h" />
+    <ClInclude Include="Vanilla1.h" />
+    <ClInclude Include="Vanilla3.h" />
+    <ClInclude Include="Wrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiThetic.cpp" />
+    <ClCompile Include="AntiThetic2.cpp" />
+    <ClCompile Include="Array.cpp" />
+    <ClCompile Include="BinomialTree.cpp" />
+    <ClCompile Include="BSCallClass.cpp" />
+    <ClCompile Include="BSCallTwo.cpp" />
+    <ClCompile Include="BSFormula.cpp" />
+    <ClCompile Include="ConvergenceTable.cpp" />
+    <ClCompile Include="DoubleDigital.cpp" />
+    <ClCompile Include="ExoticBSEngine.cpp" />
+    <ClCompile Include="ExoticEngine.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MCStatistics.cpp" />
+    <ClCompile Include="Normals.cpp" />
+    <ClCompile Include="Normals2.cpp" />
+    <ClCompile Include="Parameters.cpp" />
+    <ClCompile Include="ParkMiller.cpp" />
+    <ClCompile Include="ParkMiller2.cpp" />
+    <ClCompile Include="PathDependent.cpp" />
+    <ClCompile Include="PathDependentAsian.cpp" />
+    <ClCompile Include="PathDependentAsian2.cpp" />
+    <ClCompile Include="PayOff1.cpp" />
+    <ClCompile Include="PayOff2.cpp" />
+    <ClCompile Include="PayOffBridge.cpp" />
+    <ClCompile Include="PayOffBridge2.cpp" />
+    <ClCompile Include="PayOffFactory.cpp" />
+    <ClCompile Include="PayOffRegistration.cpp" />
+    <ClCompile Include="Random1.cpp" />
+    <ClCompile Include="Random2.cpp" />
+    <ClCompile Include="Random22.cpp" />
+    <ClCompile Include="SimpleMC.cpp" />
+    <ClCompile Include="SimpleMC3.cpp" />
+    <ClCompile Include="SimpleMC6.cpp" />
+    <ClCompile Include="SimpleMC8.cpp" />
+    <ClCompile Include="testHeader.cpp" />
+    <ClCompile Include="TreeAmerican.cpp" />
+    <ClCompile Include="TreeEuropean.cpp" />
+    <ClCompile Include="TreeProduct.cpp" />
+    <ClCompile Include="Vanilla1.cpp" />
+    <ClCompile Include="Vanilla3.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

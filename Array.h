@@ -30,7 +30,11 @@ public:
 	double max() const;
 
 private:
-	double* ValuesPtr;	double* EndPtr;	unsigned long Size;	unsigned long Capacity;
+	double* ValuesPtr;
+	double* EndPtr;
+
+	unsigned long Size;
+	unsigned long Capacity;
 };
 
 inline unsigned long MJArray::getSize() const

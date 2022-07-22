@@ -46,8 +46,41 @@ void AntiThetic::Skip(unsigned long numberOfPaths)
 	if (numberOfPaths == 0)
 		return;
 
-	if (OddEven)	{		OddEven = false;		numberOfPaths--;	}		if (numberOfPaths % 2)	{		MJArray tmp(GetDimensionality());		GetUniforms(tmp);	}
+	if (OddEven)
+	{
+		OddEven = false;
+		numberOfPaths--;
+	}
+
+	
+	if (numberOfPaths % 2)
+	{
+		MJArray tmp(GetDimensionality());
+
+		GetUniforms(tmp);
+
+	}
 }
 
 
-void AntiThetic::ResetDimensionality(unsigned long NewDimensionality){	RandomBase::ResetDimensionality(NewDimensionality);	NextVariates.resize(NewDimensionality);	InnerGenerator->ResetDimensionality(NewDimensionality);		}void AntiThetic::Reset(){		OddEven = true;}unsigned long AntiThetic::GetDimensionality() const{	return RandomBase::GetDimensionality();}
+void AntiThetic::ResetDimensionality(unsigned long NewDimensionality)
+{
+	RandomBase::ResetDimensionality(NewDimensionality);
+
+	NextVariates.resize(NewDimensionality);
+
+	InnerGenerator->ResetDimensionality(NewDimensionality);
+		
+}
+
+void AntiThetic::Reset()
+{
+	
+	OddEven = true;
+}
+
+unsigned long AntiThetic::GetDimensionality() const
+{
+	return RandomBase::GetDimensionality();
+}
+

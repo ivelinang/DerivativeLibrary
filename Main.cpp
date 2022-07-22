@@ -91,7 +91,14 @@ void testMCcall() {
 
 	double x = 2.0*(double)rand() / (double)(RAND_MAX)-1;
 
-	double result = 0;	for (unsigned long j = 0; j < 12; j++)		result += (double)rand();// / static_cast<double>(RAND_MAX);	result -= 6.0;	//return result;
+	double result = 0;
+
+	for (unsigned long j = 0; j < 12; j++)
+		result += (double)rand();// / static_cast<double>(RAND_MAX);
+
+	result -= 6.0;
+
+	//return result;
 	//*PayOff call = &callPayOff;
 	
 	double priceCall = SimpleMonteCarlo2(callPayOff,
@@ -252,7 +259,8 @@ void testMCv4() {
 	unsigned long numberOfPaths = 1000.0;
 	PayOffCall thePayOff(strike);
 	VanillaOption theOption(thePayOff, expiry);
-		//ParametersConstant vp(vol);
+	
+	//ParametersConstant vp(vol);
 	ParametersConstant vp(vol);
 	ParametersConstant rp(r);
 
@@ -332,7 +340,8 @@ void testMC8()
 	unsigned long numberOfPaths = 1000.0;
 	PayOffCall thePayOff(strike);
 	VanillaOption theOption(thePayOff, expiry);
-	//ParametersConstant vp(vol);
+
+	//ParametersConstant vp(vol);
 	ParametersConstant vp(vol);
 	ParametersConstant rp(r);
 

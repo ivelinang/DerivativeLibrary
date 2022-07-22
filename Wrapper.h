@@ -33,6 +33,60 @@ public:
 			Dataptr = 0;
 	}
 
-	Wrapper& operator=(const Wrapper<T>& original)	{		if (this != &original)		{			if (Dataptr != 0)				delete Dataptr;			Dataptr = (original.Dataptr != 0) ? original.Dataptr->clone() : 0;					}		return *this;	}		Wrapper& equals(const Wrapper<T>& original)	{		if (this != &original)		{			T* newPtr = (original.Dataptr != 0) ? original.Dataptr->clone() : 0;			if (Dataptr != 0)				delete Dataptr;			Dataptr = newPtr;		}		return *this;	}	T& operator*()	{		return *Dataptr;	}	const T& operator*() const	{		return *Dataptr;	}	const T* const operator->() const	{		return Dataptr;	}	T* operator->()	{		return Dataptr;	}private:	T* Dataptr;
+	Wrapper& operator=(const Wrapper<T>& original)
+	{
+		if (this != &original)
+		{
+			if (Dataptr != 0)
+				delete Dataptr;
+
+			Dataptr = (original.Dataptr != 0) ? original.Dataptr->clone() : 0;
+			
+		}
+
+		return *this;
+	}
+
+	
+	Wrapper& equals(const Wrapper<T>& original)
+	{
+		if (this != &original)
+		{
+			T* newPtr = (original.Dataptr != 0) ? original.Dataptr->clone() : 0;
+
+			if (Dataptr != 0)
+				delete Dataptr;
+
+			Dataptr = newPtr;
+		}
+
+		return *this;
+	}
+
+
+	T& operator*()
+	{
+		return *Dataptr;
+	}
+
+	const T& operator*() const
+	{
+		return *Dataptr;
+	}
+
+	const T* const operator->() const
+	{
+		return Dataptr;
+	}
+
+	T* operator->()
+	{
+		return Dataptr;
+	}
+
+
+private:
+	T* Dataptr;
+
 };
 #endif // !WRAPPER_H

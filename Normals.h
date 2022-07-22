@@ -7,7 +7,11 @@ class NormalProbability
 public:
 	NormalProbability() {};
 
-	double NormalDensity(double x);	double CumulativeNormal(double x);	double InverseCumulativeNormal(double x);
+	double NormalDensity(double x);
+
+	double CumulativeNormal(double x);
+
+	double InverseCumulativeNormal(double x);
 
 	double tryDD(double x);
 

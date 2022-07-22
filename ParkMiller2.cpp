@@ -1,7 +1,10 @@
 #include "ParkMiller2.h"
 #include <iostream>
 
-const long a = 16807;const long m = 2147483647;const long q = 127773;const long r = 2836;
+const long a = 16807;
+const long m = 2147483647;
+const long q = 127773;
+const long r = 2836;
 
 ParkMiller::ParkMiller(long Seed_) : Seed(Seed_)
 {
